@@ -10,7 +10,7 @@ Domain Layer:
 - `OCP`: `Product` and `GetProductUseCase` are easy to extend without modifying old code.
 - `LSP`: Model or use case can be replaced without errors.
 - `ISP`: Interface `IProductRepository` is compact, not redundant.
-- DIP: `GetProductUseCase` depends on abstraction `IProductRepository`.
+- `DIP`: `GetProductUseCase` depends on abstraction `IProductRepository`.
 
 Data Layer:
 
